@@ -42,6 +42,12 @@ export default function Auth() {
           </h1>
           <form className="auth-form" onSubmit={handleSubmit(onSubmit)}>
             {error && <div className="error-message">{error}</div>}
+
+            
+           
+
+
+
             <div className="form-group">
               <label className="form-label" htmlFor="email">
                 Email
